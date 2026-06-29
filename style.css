@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#0B0F19;
+
+    color:white;
+
+    font-family:Arial,sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:50px 20px;
+
+}
+
+.container{
+
+    width:100%;
+
+    max-width:430px;
+
+}
+
+header{
+
+    margin-bottom:30px;
+
+}
+
+header h1{
+
+    color:#FF3B30;
+
+    margin-bottom:8px;
+
+}
+
+header p{
+
+    color:#9FA6B2;
+
+}
+
+.card{
+
+    background:#171C28;
+
+    border-radius:22px;
+
+    padding:24px;
+
+    margin-bottom:22px;
+
+}
+
+.battery{
+
+    font-size:48px;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+.stage-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+    margin:20px 0;
+
+}
+
+.stage-buttons button{
+
+    flex:1;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:#2D3646;
+
+    color:white;
+
+    transition:.25s;
+
+}
+
+.stage-buttons button:hover{
+
+    background:#FF3B30;
+
+}
+
+.stage-buttons button.active{
+
+    background:#FF3B30;
+
+}
+
+.primary-button{
+
+    width:100%;
+
+    padding:18px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#FF3B30;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+.primary-button:hover{
+
+    opacity:.9;
+
+}
+
+.secondary-button{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#232B3A;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.secondary-button:hover{
+
+    background:#313C4F;
+
+}

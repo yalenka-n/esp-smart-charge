@@ -1,0 +1,61 @@
+/* ==========================================
+   GLOBAL
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #000;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+/* ==========================================
+   DASHBOARD
+========================================== */
+
+.dashboard-container {
+
+    width: 100%;
+    max-width: 1500px;
+
+}
+
+.dashboard-link {
+
+    display: block;
+
+    cursor: pointer;
+
+}
+
+.dashboard-image {
+
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    transition: transform 0.25s ease;
+
+}
+
+/* Nice subtle interaction */
+
+.dashboard-link:hover .dashboard-image {
+
+    transform: scale(1.01);
+
+}

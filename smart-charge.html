@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ESP Smart Charge</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>ESP Smart Charge</h1>
+
+        <p>Charge ahead of load shedding.</p>
+
+    </header>
+
+    <!-- Battery -->
+
+    <section class="card">
+
+        <h2>Battery</h2>
+
+        <div class="battery">84%</div>
+
+        <p>Estimated Range: 420 km</p>
+
+    </section>
+
+    <!-- Load Shedding -->
+
+    <section class="card">
+
+        <h2>Load Shedding Stage</h2>
+
+        <div class="stage-buttons">
+
+            <button onclick="changeStage(1)">Stage 1</button>
+
+            <button class="active" onclick="changeStage(2)">Stage 2</button>
+
+            <button onclick="changeStage(3)">Stage 3</button>
+
+        </div>
+
+        <p id="stageText">
+
+            Current Status: Stage 2
+
+        </p>
+
+    </section>
+
+    <!-- Recommendation -->
+
+    <section class="card">
+
+        <h2>Smart Recommendation</h2>
+
+        <p id="recommendation">
+
+            Charge before 17:00 to avoid interruptions.
+
+        </p>
+
+    </section>
+
+    <button
+        class="primary-button"
+        onclick="window.location.href='stations.html'">
+
+        Find Nearby Charging Stations
+
+    </button>
+
+    <button
+        class="secondary-button"
+        onclick="window.location.href='index.html'">
+
+        ← Back to Dashboard
+
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
